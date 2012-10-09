@@ -1,4 +1,4 @@
-# Chrome Remote Debugging for Android
+# Chrome for Android Remote Debugging
 
 Remote debugging with Chrome on Android is awesome but the command to start it is not. Read this first: https://developers.google.com/chrome/mobile/docs/debugging and then run:
 
