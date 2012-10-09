@@ -1,0 +1,19 @@
+{
+  "name": "crd",
+  "version": "0.1.0",
+  "description": "Chrome Remote Debugging",
+  "main": "crd.js",
+  "bin": {"crd": "./bin/crd"},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": "",
+  "keywords": [
+    "chrome",
+    "remote",
+    "debugging",
+    "mobile"
+  ],
+  "author": "brianleroux",
+  "license": "MIT"
+}
