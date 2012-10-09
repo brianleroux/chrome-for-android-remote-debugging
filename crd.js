@@ -7,7 +7,7 @@ module.exports = function() {
     init.stdout.pipe(process.stdout)
     init.stderr.pipe(process.stderr)
 
-    init.on('exit', function() {
-        spwn('open', ['http://localhost:9222'])
+    init.on('exit', function(code) {
+        if (code != 1) spwn('open', ['http://localhost:9222'])
     })
 }
