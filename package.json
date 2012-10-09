@@ -1,13 +1,13 @@
 {
   "name": "crd",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "Chrome Remote Debugging",
   "main": "crd.js",
   "bin": {"crd": "./bin/crd"},
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "repository": "",
+  "repository": "http://github.com/brianleroux/chrome-for-android-remote-debugging.git",
   "keywords": [
     "chrome",
     "remote",
